@@ -1,2 +1,2 @@
-# html-css-course-assignment
+# IlzeBrevik/html-css-course-assignment
 noroff course assignment
