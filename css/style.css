@@ -13,10 +13,10 @@
     background-color:#000;
     color: #fff;
     height:400px;
-     justify-content:space-between;
-     padding-top:50;
-     flex:auto;
-     justify-content: center;
+    justify-content:space-between;
+    padding-top:50;
+    flex:auto;
+    justify-content: center;
   }
 
   .right-navigation{
@@ -82,34 +82,27 @@
     height: 400px;
     object-fit: cover;
     object-position:top;
-    
-  }
+   }
 
   .overlay{
     position:absolute;
     top: 25%;
     color: white;
     padding: 20px;
-    
   }
-  
-
   .overlay h1{
     font-size: 128px;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     margin-left: 70px;
     margin-top: 300px;
-     
   }
-  
   .overlay p{
     font-size: 80px;
     margin-left:57px;
     font-family: 'Spline Sans', sans-serif;
     line-height: 133px;
-
-  }
+}
 
   .button{
     background-color:#faf11d;
@@ -158,15 +151,14 @@
   justify-content: center;
   align-items: center;
   margin-top: 1500px;
-}
+  }
 
  .overlay{
   position:absolute;
   top: 15%;
   color: white;
   padding: 20px;
-  
-}
+ }
 
 h4{
   font-family: 'Spline Sans', sans-serif;
@@ -182,36 +174,27 @@ h4{
   margin-left: 300px;
   margin-right: 400px;
 }
-
-.box{
+.box {
   width: 1650px;
   height: 200px;
-  background-color: #faf11d;
+  background-color: rgb(250, 241, 29);
   display: flex;
   padding-right: 100px;
   font-size: 64px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: Quicksand, sans-serif;
   margin-left: 270px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
-.btn{
+.btn {
   width: 700px;
   height: 100px;
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 64px;
   cursor: pointer;
-
-
-}
- 
-.box btn{
-  padding-top: 40px;
-  
 }
 <!--footer-->
 
@@ -256,20 +239,68 @@ h4{
   color: #fff;
   margin-left: 50px;
   font-size: 70px;
-
-
-  
 }
-
-
 .footer-container li a{
   color: #fff;
   text-decoration: none;
   text-align: center;
- 
+ }
+ <!--end of home page-->
+
+ <!--start of jacket page-->
+
+ .headline p{
+  text-align: left;
+  font-size: 48px;
+  font-family: 'Spline Sans', sans-serif;
+  margin-left: 100px;
+ }
+
+ .headline h1{
+  text-align: center;
+  font-family: Quicksand, sans-serif;
+  font-size: 96px;
+ }
+
+ .headline h4{
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 64px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 900px);
+  grid-template-rows: auto;
+  gap:80px;
+  row-gap:50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: auto;
+  max-height: 100%;
 
 }
- 
+
+.grid-item{
+  background-color: #ece9e9;
+  width: auto;
+  max-height: 100%;
+
+}
+
+.grid-item h2{
+font-family: 'Spline Sans', sans-serif;
+font-size: 64px;
+text-align: center;
+}
+.grid-item p{
+font-family: 'Spline Sans', sans-serif;
+font-size: 64px;
+text-align: center;
+}
+
+
+
 
 
 
