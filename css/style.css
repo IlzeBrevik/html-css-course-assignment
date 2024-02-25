@@ -6,57 +6,52 @@
   margin:0;
  }
   
-  .header-container {
-    display: flex;
-    flex-direction: row;
-    overflow: hidden;
-    background-color:#000;
-    color: #fff;
-    height:400px;
-    justify-content:space-between;
-    padding-top:50;
-    flex:auto;
-    justify-content: center;
+.header-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color:#000;
+  color: #fff;
+  height:400px;
+  justify-content:space-between;
+  padding-top:50;
+  flex:auto;
+  justify-content: center;
   }
 
-  .right-navigation{
-    margin-left: 600px;
-    padding: 120px;
-    flex: auto;
-    padding-top: 190px;
-    display: flex;
-    
-   }
+.right-navigation{
+  margin-left: 600px;
+  padding: 120px;
+  flex: auto;
+  padding-top: 200px;
+  display: flex;
+}
 
-  .tabs{
-    margin-top:150px;
-    flex:auto
-  }
+.tabs{
+ margin-top:150px;
+ flex:auto
+}
 
-  .tabs ul{
-  list-style:none;
-  }
+.tabs ul{
+ list-style:none;
+}
  
- .tabs-navigation{
+.tabs-navigation{
  list-style: none;
  display:flex;
  justify-content: center;
  
- }
+}
 .tabs-navigation li{
   margin-right:20px;
  }
 
-  .a {
-    width:200vw;
-    height: 200vw;
-
-    
+.a {
+  width:200vw;
+  height: 200vw;
 }
 
-.tabs ul li a {
-
- padding: 40px;
+.tabs ul li a { padding: 40px;
  color:#fff;
  font-size:80px;
  text-decoration:none;
@@ -65,124 +60,125 @@
 }
 
 .logo{
-    width: 485px;
-    height: 310px;
-    padding-top: 22px;
-    
-  } 
-  <!--end of header-->
+  width: 485px;
+  height: 310px;
+  padding-top: 22px;
+} 
+  /*end of header*/
 
-  
-  .container{
-  width:100%;
-  }
+  /*start of content*/
 
-  .content rain{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    object-position:top;
-   }
-
-  .overlay{
-    position:absolute;
-    top: 25%;
-    color: white;
-    padding: 20px;
-  }
-  .overlay h1{
-    font-size: 128px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    margin-left: 70px;
-    margin-top: 300px;
-  }
-  .overlay p{
-    font-size: 80px;
-    margin-left:57px;
-    font-family: 'Spline Sans', sans-serif;
-    line-height: 133px;
+.container{
+ width:100%;
 }
 
-  .button{
-    background-color:#faf11d;
-    border: none;
-    height: 108px;
-    width: 698px;
-    font-size: 64px;
-    cursor: pointer; 
-    margin-top: 300px;
-    margin-left: 50px;
-    font-family: 'Spline Sans', sans-serif;
-    font-weight: 900;
-    
+.content rain{
+width: 100%;
+height: 400px;
+object-fit: cover;
+object-position:top;
+}
+
+.overlay{
+ position:absolute;
+ top: 25%;
+ color: white;
+ padding: 20px;
+}
+.overlay h1{
+ font-size: 128px;
+ font-weight: bold;
+ font-family: 'Quicksand', sans-serif;
+ margin-left: 70px;
+ margin-top: 300px;
+}
+ .overlay p{
+  font-size: 80px;
+  margin-left:57px;
+  font-family: 'Spline Sans', sans-serif;
+  line-height: 133px;
+}
+
+.button{
+  background-color:#faf11d;
+  border: none;
+  height: 108px;
+  width: 698px;
+  font-size: 64px;
+  cursor: pointer; 
+  margin-top: 300px;
+  margin-left: 50px;
+  font-family: 'Spline Sans', sans-serif;
+  font-weight: 900;
   }
 
-  <!--end of content-->
+  /*end of content*/
   
-  h2{
-    font-size: 96px;
-    font-family: 'Quicksand', sans-serif;
+h2{
+  font-size: 96px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-top: 200px;
   }
  
-  *{
-    box-sizing: border-box;
+*{
+ box-sizing: border-box;
   }
 
-  .column{
-    width: 48%;
-    padding-left: 350px;
-    padding-right:350px;
-    padding-top: 250px;
-    position: relative;
-    display: inline-block;
-  }
+.column{
+width: 48%;
+ padding-left:380px;
+ padding-right:260px;
+ padding-top: 100px;
+ position: relative;
+ display: inline-block;
+}
 
-  .row::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
+.row::after{
+content: "";
+display: table;
+clear: both;
+}
 
- .column button{
-  margin-bottom: 0px;
-  margin-left: -880px;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1500px;
-  }
+.column button{
+margin-bottom: 0px;
+margin-left: -880px;
+position: absolute;
+justify-content: center;
+align-items: center;
+margin-top: 1500px;
+}
 
- .overlay{
-  position:absolute;
-  top: 15%;
-  color: white;
-  padding: 20px;
- }
+.overlay{
+position:absolute;
+top: 15%;
+color: white;
+padding: 20px;
+}
 
 h4{
-  font-family: 'Spline Sans', sans-serif;
-  font-size: 64px;
-  margin-right: 60px;
-  margin-left: 60px;
-  line-height: 182%;
-  text-align:justify;
+font-family: 'Spline Sans', sans-serif;
+font-size: 64px;
+margin-right: 60px;
+margin-left: 60px;
+line-height: 182%;
+text-align:justify;
 }
 
 .paragraph-container{
   background-color:  #ece9e9;
-  margin-left: 300px;
+  margin-left: 370px;
   margin-right: 400px;
 }
 .box {
-  width: 1650px;
-  height: 200px;
+  width: 80%;
+  height: 250px;
   background-color: rgb(250, 241, 29);
   display: flex;
-  padding-right: 100px;
+  padding-right: 50px;
   font-size: 64px;
   font-family: Quicksand, sans-serif;
-  margin-left: 270px;
+  margin-left: 370px;
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
@@ -190,13 +186,15 @@ h4{
 }
 .btn {
   width: 700px;
-  height: 100px;
+  height: 150px;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 64px;
   cursor: pointer;
+  margin-left: 300px;
 }
-<!--footer-->
+
+/* start of footer */
 
 .footer-wrapper{
   width: 100%;
@@ -207,14 +205,16 @@ h4{
     
 }
 .logo1{
-  width: 175px;
-  height: 100px;
+  width: 400px;
+  height: 250px;
   float: left;
+  padding-top: 40px;
+  padding-left: 70px;
 }
 .footer-container{
   width: 25%;
   float: left;
-  text-align: left;
+  text-align:left;
   padding: 10px;
   background-color:#000;
   color: #fff;
@@ -222,10 +222,11 @@ h4{
   font-size: 48px;
   list-style: none;
   text-decoration: none;
+  margin-left: 200px;
 }
 .social-media {
   width: 25%;
-  float: left;
+  float:right;
   text-align: left;
   padding: 26px;
   background-color:#000;
@@ -243,11 +244,16 @@ h4{
 .footer-container li a{
   color: #fff;
   text-decoration: none;
-  text-align: center;
+  margin-left: 320px;
  }
- <!--end of home page-->
 
- <!--start of jacket page-->
+ .footer-container h3{
+  padding-left: 320px;
+ }
+
+ /* end of home page*/
+
+ /* start of jacket page */
 
  .headline p{
   text-align: left;
@@ -298,8 +304,6 @@ font-family: 'Spline Sans', sans-serif;
 font-size: 64px;
 text-align: center;
 }
-
-
 
 
 
