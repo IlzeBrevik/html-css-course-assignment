@@ -5,7 +5,9 @@
 * {
   box-sizing: border-box;
 }
-
+body{
+  width: fit-content;
+}
 .navbar{
   display: flex;
   justify-content: stretch;
@@ -115,13 +117,19 @@
 
 .content rain{
 width: 100%;
-height:80rem;
-object-fit: cover;
-object-position:top;
+height:100px;
+}
+
+.bannerHeader{
+  object-fit: cover;
+  object-position: 50% 52%;
+  height: 110rem;
+  width: 100%;
 }
 
 .overlay{
  position:absolute;
+ text-wrap: nowrap;
  top: 25%;
  color: white;
  padding: 4rem;
@@ -364,25 +372,6 @@ text-align: center;
 /*end of jacket page*/
 
  /* start of product-page */
-
- .image-container{
-  max-width: 20%;
-  height: auto;
- }
- .image-ontainer img{
-  max-width: 30%;
-  height: auto;
-  display: block;
-  margin:0 auto;
- }
-
-
-
-
- 
-  
-
-  
 
   
 
