@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  width: fit-content;
+  width: 100%;
 }
 .navbar{
   display: flex;
@@ -312,52 +312,69 @@ text-align:justify;
 
  .headline p{
   text-align: left;
-  font-size: 48px;
+  font-size: 4rem;
   font-family: 'Spline Sans', sans-serif;
-  margin-left: 100px;
+  margin-left: 10rem;
  }
 
  .headline h1{
   text-align: center;
   font-family: Quicksand, sans-serif;
-  font-size: 96px;
+  font-size: 9,6rem;
  }
 
  .headline h4{
   text-align: center;
   font-family: 'Spline Sans', sans-serif;
-  font-size: 64px;
+  font-size: 6,4rem;
 }
 
 .grid-container{
-  display: grid;
-  grid-template-columns: repeat(3, 900px);
-  grid-template-rows: auto;
-  gap:80px;
-  row-gap:50px;
-  padding-left: 100px;
-  padding-right: 100px;
-  width: auto;
-  max-height: 100%;
+  display:grid;
+  grid-template-columns: repeat(3,100rem);
+  gap:8rem;
+  row-gap: 10rem;
+  margin-top: 30rem;
+  width: 100%;
+  flex-basis: 20rem;
+  margin-left: 76rem;
+  justify-items: center;
 
 }
 
 .grid-item{
-  background-color: #ece9e9;
-  width: auto;
+  background: #ece9e9;
+  width: 100%;
   max-height: 100%;
-
+  padding-left: 20rem;
+  justify-content: center;
+  
 }
 
 .grid-item h2{
 font-family: 'Spline Sans', sans-serif;
 font-size: 64px;
-text-align: center;
+margin-top: 5rem;
+
 }
+
 .grid-item p{
 font-family: 'Spline Sans', sans-serif;
 font-size: 64px;
 text-align: center;
+
+}
+
+.grid-item img{
+  background-color: #ece9e9;
+  height: 57%;
+  margin-top: 5rem;
+  justify-items: ;
+  align-items: center;
+
+
+
+
 
 }
 
@@ -372,7 +389,6 @@ text-align: center;
 /*end of jacket page*/
 
  /* start of product-page */
-
   
 
    
