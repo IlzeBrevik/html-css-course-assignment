@@ -89,7 +89,7 @@ body{
   border-radius: 1rem;
   cursor:pointer;
 }
-@media (max-width:600px){
+ @media (max-width:600px){
   .toggle-button{
     display: flex;
   }
@@ -178,14 +178,14 @@ h2{
   }
 
 .column{
-width: 48%;
- padding-left:38rem;
- padding-right:26rem;
+ width: 48%;
+ padding-left: 38rem;
+ padding-right: 26rem;
  padding-top: 10rem;
  position: relative;
  display: inline-block;
-}
 
+}
 .row::after{
 content: "";
 display: table;
@@ -193,6 +193,7 @@ clear: both;
 }
 
 .column button{
+position: absolute;
 margin-bottom: 0rem;
 margin-left: -80rem;
 position: absolute;
@@ -252,59 +253,54 @@ text-align:justify;
 
 /* start of footer */
 
-.footer-wrapper{
-  width: 100%;
-  height: 30rem;
-  padding: 1rem;
-  margin: 0 auto;
+.footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   background-color: #000;
-    
+  color: #fff;
+  padding: 2rem;
 }
+
+.footer-container{
+justify-content: center;
+}
+    
+
 .logo1{
   width: 30rem;
   height: 15rem;
-  float: left;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-left: 7rem;
+  flex: 0 0 20%;
+
 }
-.footer-container{
-  width: 25%;
-  float: left;
-  text-align:left;
-  background-color:#000;
-  color: #fff;
-  font-family: 'Spline Sans', sans-serif;
-  font-size: 48px;
+
+.footer-container ul a{
   list-style: none;
+  font-size: 3rem;
   text-decoration: none;
-  margin-left: 25rem;
-}
-.social-media {
-  width: 25%;
-  float:right;
-  text-align: left;
-  padding: 2rem;
-  background-color:#000;
   color: #fff;
-  font-family: 'Spline Sans', sans-serif;
-  font-size: 48px;
+  list-style-type: none;
+  }
+
+.footer-container li{
+  list-style:none;
+}
+
+.footer-container h3, .social-media h3{
   margin-bottom: 2rem;
+  font-size: 4rem;
+  font-family: 'Spline Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
 
 }
 .social-media a{
   color: #fff;
-  margin-left: 2rem;
-  font-size: 6rem;
+  font-size: 5rem;
+  margin-right: 3rem;
 }
-.footer-container li a{
-  color: #fff;
-  text-decoration: none;
-  margin-left: 20rem;
- }
 
- .footer-container h3{
-  padding-left: 20rem;
- }
 
  /* end of home page*/
 
@@ -312,7 +308,7 @@ text-align:justify;
 
  .headline p{
   text-align: left;
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Spline Sans', sans-serif;
   margin-left: 10rem;
  }
@@ -320,20 +316,20 @@ text-align:justify;
  .headline h1{
   text-align: center;
   font-family: Quicksand, sans-serif;
-  font-size: 9,6rem;
+  font-size: 10rem;
  }
 
  .headline h4{
   text-align: center;
   font-family: 'Spline Sans', sans-serif;
-  font-size: 6,4rem;
+  font-size: 7rem;
 }
 
 .grid-container{
   display:grid;
   grid-template-columns: repeat(3,100rem);
   gap:8rem;
-  row-gap: 10rem;
+  row-gap:10rem;
   margin-top: 30rem;
   width: 100%;
   flex-basis: 20rem;
@@ -346,50 +342,86 @@ text-align:justify;
   background: #ece9e9;
   width: 100%;
   max-height: 100%;
-  padding-left: 20rem;
-  justify-content: center;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .grid-item h2{
 font-family: 'Spline Sans', sans-serif;
-font-size: 64px;
+font-size: 6rem;
 margin-top: 5rem;
 
 }
 
 .grid-item p{
 font-family: 'Spline Sans', sans-serif;
-font-size: 64px;
+font-size: 6rem;
 text-align: center;
 
 }
 
 .grid-item img{
   background-color: #ece9e9;
+  width: 100%;
   height: 57%;
   margin-top: 5rem;
-  justify-items: ;
-  align-items: center;
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
-  
 /*end of jacket page*/
 
- /* start of product-page */
-  
+ /* start of productpage */
+
+.box-container{
+background-color: #ece9e9;
+width: 70%;
+height: 80%;
+justify-content: center;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+.description p{
+font-size: 6rem;
+font-family: 'Spline Sans', sans-serif;
+line-height:2;
+letter-spacing: 0.1rem;
+text-align: justify;
+margin-left: 15rem;
+
+}
+.description img{
+  max-width: 100%;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  float: left;
+}
+.description{
+  flex: 1;
+  padding: 2rem;
+  align-items: center;
+}
+.description ul{
+  font-size: 6rem;
+  font-family: 'Spline Sans', sans-serif;
+  line-height: 2;
+  margin-left: 30rem;
+}
+.size-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sizebox{
+  flex:1;
+  border: 0.8rem solid #000;
+  padding: 5rem;
+  margin: 20rem;
+  text-align: center;
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 8rem;
+}
 
    
     
