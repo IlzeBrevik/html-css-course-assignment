@@ -74,13 +74,13 @@ body{
 
 .toggle-button{
   position: absolute;
-  top:8rem;
-  right: 10rem;
+  top:2rem;
+  right: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 7rem;
-  height: 5rem;
+  width: 3rem;
+  height: 2.3rem;
 }
 .toggle-button .bar{
   height: 0.3rem;
@@ -378,10 +378,10 @@ text-align: center;
   margin-left: 5rem;
 }
 .description img{
- max-width: 100%;
- margin-right: 5rem;
- margin-left: 5rem;
- float: feft;
+  max-width: 100%;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  float: feft;
 }
 .description{
   flex: 1;
@@ -396,8 +396,167 @@ text-align: center;
 }
 
 
-.btn{}
-.
+/* end of productpage */
+
+/* start of check-out */
+
+.headline p{
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+.headline h1{
+  font-family: Quicksand, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+.jacket-box img{
+  width: 12%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  float: left;
+}
+
+.jacket-box{
+  width: 55%;
+  height: 35%;
+  border:0.1rem solid;
+  margin: auto;
+  display: flex;
+}
+.jacket-box p{
+  font-family: Quicksand, sans-serif;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+
+.flex-container{
+  display: flex;
+  font-family: Quicksand, sans-serif;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-item1{
+  width: 27%;
+}
+
+.flex-item2{
+  width: 27%;
+  text-align: end;
+}
+
+.checkout h3{
+  font-family: Quicksand, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.checkout h4{
+  font-family: Quicksand, sans-serif;
+  font-size:1rem;
+  text-align: center;
+  text-decoration: underline;
+
+}
+.checkout p{
+  font-family: Quicksand, sans-serif;
+  font-size: 1,9rem;
+  margin-left: 23%;
+}
+
+.registration-container{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  max-width: 65%;
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+  position: relative;
+  flex-direction: column;
+  margin:auto;
+ }
+
+.registration-container::before{
+  content:"";
+  position: absolute;
+  height: 3rem;
+  width: 8rem;
+}
+.registration-container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+form .user-details .input-box{
+  width: calc(50%-20px);
+  margin-bottom: 2rem;
+}
+.registration-container form .user-details .input-box{
+  width: 40%;
+
+}
+.user-details .input-box input{
+  height:2.7rem;
+  width: 100%;
+  border-radius:0.3rem;
+}
+.user-details h3{
+  font-family: Quicksand, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+.category .method{
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+  margin-left:1rem;
+}
+.category .onedot{
+  margin-left: 28rem;
+}
+.category.onedot .method{
+flex-direction:column;
+}
+.payment{
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+  line-height:2rem;
+  display: flex;
+  flex-direction: column;
+  width: 150vh;
+  height: 10vw;
+  align-items: center;
+}
+.checkout-payment{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+.checkout-payment .payment-card{
+  max-width: 30rem;
+}
+.checkout-payment img{
+  max-width: 100%;
+  margin-top: 0.5rem;
+}
+.checkout-payment h5{
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
    
