@@ -227,7 +227,7 @@ body{
   }
   .paragraph-container{
     display: flex;
-    width: 80%;
+    width: 90%;
     height: 30%;
     background-color: #ece9e9;
     align-items: center;
@@ -236,9 +236,9 @@ body{
   
   }
   .paragraph-container p{
-    font-family: "Spline Sans", sans-serif;
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.8;
     letter-spacing:0.07em;
     text-align: justify;
     margin: 1em;
@@ -574,6 +574,7 @@ h3{
   
 }
 
+    
 
 
 
