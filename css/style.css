@@ -110,147 +110,142 @@ body{
   /*end of header*/
 
   /*start of content*/
-
-.container{
- width:100%;
-}
-
-.content rain{
-width: 100%;
-height:100px;
-}
-
-.bannerHeader{
-  object-fit: cover;
-  object-position: 50% 52%;
-  height: 110rem;
-  width: 100%;
-}
-
-.overlay{
- position:absolute;
- text-wrap: nowrap;
- top: 25%;
- color: white;
- padding: 4rem;
-}
-.overlay h1{
- font-size: 12rem;
- font-weight: bold;
- font-family: 'Quicksand', sans-serif;
- margin-left: 7rem;
- margin-top: 14rem;
-}
- .overlay p{
-  font-size: 80px;
-  margin-left:7rem;
-  font-family: 'Spline Sans', sans-serif;
-  line-height: 8rem;
-}
-
-.button{
-  background-color:#faf11d;
-  border:none;
-  height: 4rem;
-  width: 50rem;
-  font-size: 1.7rem;
-  cursor: pointer; 
-  margin-top: 2rem;
-  font-family: 'Spline Sans', sans-serif;
-  align-items: center;
-  font-weight: 900;
-  margin-bottom: 2rem;
+  .container {
+    width: 100%;
   }
-  .button:hover{
-    color:#c8f2ff;;
-  }
-
-  /*end of content*/
   
-  .h2{
-  font-size: 96px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  margin-top: 20rem;
-  } 
- 
-*{
- box-sizing: border-box;
+  .rain {
+    position: relative;
+    width: 100%;
   }
-
-.column{
- width: 48%;
- padding-left: 38rem;
- padding-right: 26rem;
- padding-top: 10rem;
- position: relative;
- display: inline-block;
-
-}
-.row::after{
-content: "";
-display: table;
-clear: both;
-}
-
-.column button{
-position: absolute;
-margin-bottom: 0rem;
-margin-left: -80rem;
-position: absolute;
-justify-content: center;
-align-items: center;
-margin-top: 150rem;
-}
-.column button:hover{
-  color:#eeefac;
-}
-
-.overlay{
-position:absolute;
-top: 15%;
-color: white;
-padding: 2rem;
-}
-
-h4{
-font-family: 'Spline Sans', sans-serif;
-font-size: 6rem;
-margin-right: 6rem;
-margin-left: 6rem;
-line-height: 182%;
-text-align:justify;
-}
-
-.paragraph-container{
-  background-color:  #ece9e9;
-  margin-left: 37rem;
-  margin-right: 39rem;
-}
-.box {
-  width: 80%;
-  height: 20rem;
-  background-color:#faf11d;
-  display: flex;
-  padding-right: 5rem;
-  font-size: 64px;
-  font-family: Quicksand, sans-serif;
-  margin-left: 34rem;
-  margin-right: 40rem;
-  margin-bottom: 2rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.btn {
-  width: 70rem;
-  height: 10rem;
-  background-color:#000;
-  color: #fff;
-  font-size: 64px;
-  cursor: pointer;
-  margin-left: 30rem;
-}
+  
+  .rain img {
+    width: 100vw;
+    object-fit: cover;
+    object-position: 50% 52%;
+    max-height: 45rem;
+  }
+  
+  .overlay {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    padding: 0% 5%;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay h1 {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .overlay p {
+    font-size: 3em;
+    font-family: "Spline Sans", sans-serif;
+    line-height: 84px;
+  }
+  
+  .HomepageBanner {
+    background-image: url("/assets/images/Regn.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+    color: white;
+    padding: 2rem 5%;
+  }
+  
+  .HomepageBanner h1 {
+    font-size: 5em;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .HomepageBanner p {
+    font-size: 3em;
+    font-family: "Spline Sans", sans-serif;
+    line-height: 84px;
+    font-weight: 100;
+  }
+  
+  .HomepageBanner a {
+    display: flex;
+  }
+  
+  .button {
+    background-color: #faf11d;
+    display: flex;
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: "Spline Sans", sans-serif;
+  }
+  
+   .center-text {
+    text-align: center;
+  }
+  
+  .homepageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .homepageGridItem {
+    position: relative; /* so button absolute is relative to parent */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .homepageGridItem img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .homepageGridItem button {
+    background-color: #faf11d;
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 45%;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .center-text{
+    font-family: "Quicksand", sans-serif;
+    font-size: 3em;
+  }
+  .paragraph-container{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    background-color: #ece9e9;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  
+  }
+  .paragraph-container p{
+    font-family: "Spline Sans", sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    letter-spacing:0.07em;
+    text-align: justify;
+    margin: 1em;
+   
+  }
+  
+ 
 
 /* start of footer */
 
